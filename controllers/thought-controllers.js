@@ -44,7 +44,24 @@ const thoughtController = {
         })
         .catch(err => res.json(err));
     },
+
+    // Update a thought
+    updateThought({ params, body}, res) {
+        Thought.findOneAndUpdate({ _id: params.id }, body, { new: true })
+        .populate({ path: 'reactions', select: '-__v' })
+        .select('-__v')
+        .then(dbThoughtData => {
+            if (!dbThoughtData) {
+                res.status(404).json({ message: 'No thought found with this id!' })
+                return;
+            }
+            res.json(dbThoughtData)
+        })
+        .catch(err => res.json(err));
+    },
+
 }
+
 
 
 module.exports = thoughtController;
