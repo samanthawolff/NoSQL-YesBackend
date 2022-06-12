@@ -3,7 +3,7 @@
   ![License: ](https://img.shields.io/badge/License--yellow.svg)
 
   ## Description
-  For this project, I was tasked with creating back end API points for a social network web application. Using NoSQL along with MongoDB, I was able to create RESTful API's that best follow the CRUD operation. To see the application in action, watch this short video: 
+  For this project, I was tasked with creating back end API points for a social network web application. Using NoSQL along with MongoDB, I was able to create RESTful API's that best follow the CRUD operation. To see the application in action, watch this short video: https://photos.app.goo.gl/iBQiwTX2gkxuXUM38
 
   ![Screen Shot 2022-06-05 at 5 27 28 PM](https://user-images.githubusercontent.com/97822299/172073187-eb6e7c9b-d8d9-4b2d-b452-c8b1261fe9f5.jpg)
 
